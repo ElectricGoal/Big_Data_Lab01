@@ -69,7 +69,7 @@ Enter project name and click on **Next** button
 Click on **Finish** Button
 ![Run MapReduce](images/section3/3.png)
 
-Result look like this
+Result looks like this
 ![Run MapReduce](images/section3/4.png)
 
 `Step 2`: Delete file *module-info.java*
