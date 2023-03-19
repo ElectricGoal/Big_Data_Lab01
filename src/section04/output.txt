@@ -1,0 +1,15 @@
+canna neg
+canyon pos
+chovy pos
+deft eq
+delight eq
+doran eq
+faker eq
+gumayusi pos
+kellin neg
+keria pos
+oner eq
+peanut neg
+peyz neg
+showmaker neg
+zeus pos
