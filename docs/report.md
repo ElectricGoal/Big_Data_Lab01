@@ -16,7 +16,7 @@ code-block-font-size: \scriptsize
 
 # Lab 01: A Gentle Introduction to Hadoop
 
-## List of group members
+## List of team members
 
 | ID       | Full Name          |
 | -------- | ------------------ |
@@ -25,7 +25,30 @@ code-block-font-size: \scriptsize
 | 20120393 | Huỳnh Minh Tú      |
 | 20120468 | Nguyễn Văn Hải     |
 
----
+## Team's result
+| Section | Complete |
+| ------- | -------- |
+| Setting up SNC | 100% |
+| Introduction to MapReduce | 100% |
+| Running a warm-up problem: Word Count | 100% |
+| Bonus - Extended Word Count: Unhealthy relationships | 100% |
+| Bonus - Setting up Fully Distributed Mode | 100% |
+
+## Team reflection
+
+**Does your journey to the deadline have any bugs? How
+have you overcome it?**
+
+During the journey towards the deadline, we encountered several bugs that were related to Ubuntu, Hadoop installation, and errors while running Hadoop MapReduce jobs. In order to overcome these challenges, we had to invest more time and effort. We also conducted research by reading documentation and watching tutorial videos. These resources provided us with useful insights and ideas for troubleshooting the issues. Additionally, we scheduled some online meetings to discuss and solve the problems together. Through these efforts, we were able to solve most of the problems we encountered and successfully complete the project.
+
+**What have you learned after this process?**
+
+Firstly, we learned the importance of clear communication among team members to ensure that everyone is on the same page and that tasks are completed efficiently. We also learned the importance of testing and debugging to ensure that any errors are caught and resolved early on in the process.
+
+Secondly, we learned the importance of time management and task prioritization, as we encountered some unexpected challenges during the installation and setup process. This made it necessary for us to adjust our timeline and focus on the most critical tasks first.
+
+Lastly, we learned the importance of continuous learning and self-improvement. We encountered some roadblocks that required us to do additional research and seek out new solutions, which allowed us to expand our knowledge and skills in Hadoop and MapReduce.
+
 
 ## Setting up Single-node Hadoop Cluster
 
@@ -274,15 +297,15 @@ By introducing a combiner function, the amount of data that needs to be transfer
 
 ## Running a warm-up problem: Word Count
 
-#### Use Eclipse IDE to run MapReduce on Ubuntu
+Use Eclipse IDE to run MapReduce on Ubuntu
 
-`Step 0`: Install Eclipse on Ubuntu (if you had installed, please go to next step)
+### Step 0: Install Eclipse on Ubuntu (if you had installed, please go to next step)
 
 ```
 sudo snap install --classic eclipse
 ```
-
-`Step 1`: Create new Java project
+---
+### Step 1: Create new Java project
 
 Open Eclipse, select **File** -> **New** -> **Java project**
 
@@ -297,11 +320,13 @@ Click on **Finish** button
 Result looks like this
 ![Run MapReduce](images/section3/4.png)
 
-`Step 2`: Delete file _module-info.java_
+---
+### Step 2: Delete file _module-info.java_
 
 ![Run MapReduce](images/section3/5.png)
 
-`Step 3`: Create Java package
+---
+### Step 3: Create Java package
 
 Right click on project name, select **New** -> **Package**
 
@@ -310,7 +335,8 @@ Right click on project name, select **New** -> **Package**
 Enter Package name and click on **Finish** button
 ![Run MapReduce](images/section3/7.png)
 
-`Step 4`: Create Java class
+---
+### Step 4: Create Java class
 
 Right click on project name, select **New** -> **Class** to create a Java class
 
@@ -319,12 +345,14 @@ Right click on project name, select **New** -> **Class** to create a Java class
 Enter Class name and click on **Finish** button
 ![Run MapReduce](images/section3/9.png)
 
-`Step 5`: Paste WordCount code to the _WordCount.java_ file just created
+---
+### Step 5: Paste WordCount code to the _WordCount.java_ file just created
 
 **Note**: you should see many errors
 ![Run MapReduce](images/section3/10.png)
 
-`Step 6`: Configure build path for the project
+---
+### Step 6: Configure build path for the project
 
 Right click on project name, select **New** -> **Build Path** -> **Configure Build Path**
 
@@ -353,7 +381,8 @@ Click on the button **Apply and Close**
 After that, the errors should disappear
 ![Run MapReduce](images/section3/17.png)
 
-`Step 7`: Export to JAR file
+---
+### Step 7: Export to JAR file
 
 Right click to project name, select **Export**. You should see this screen, click on **JAR file** -> **Next**
 ![Run MapReduce](images/section3/18.png)
@@ -367,7 +396,8 @@ Click on **Next** button until see this screen and browse the the package in thi
 After all, you will get the Jar file
 ![Run MapReduce](images/section3/21.png)
 
-`Step 7`: Prepare to run MapReduce
+---
+### Step 8: Prepare to run MapReduce
 
 Create new folder name "wordcount" in HDFS
 
@@ -397,7 +427,8 @@ Browse to your "wordcount" directory, you should see "input" folder. Click on it
 
 ![Run MapReduce](images/section3/24.png)
 
-`Step 8`: Run MapReduce
+---
+### Step 9: Run MapReduce
 
 ```
 hadoop jar WordCount.jar /<your-favorite-path>/wordcount/input/input.txt /<your-favorite-path>/wordcount/output
