@@ -145,7 +145,7 @@ Lastly, we learned the importance of continuous learning and self-improvement. W
 
    Append the below lines to the file. You can find the JAVA_HOME location by running dirname $(dirname $(readlink -f $(which java))) command on the terminal.
 
-   ![setup-environment](images/section1/setup-enviroment.png)
+   ![setup environment](images/section1/setup-enviroment.png)
 
    Save the file and close it.
 
@@ -163,7 +163,7 @@ Lastly, we learned the importance of continuous learning and self-improvement. W
 
    Search for the “export JAVA_HOME” and configure it with the value found in step 1. See the below screenshot:
 
-   ![setup-hadoop-env](images/section1/setup-hadoop-env.png)
+   ![setup hadoop-env](images/section1/setup-hadoop-env.png)
 
    Save the file and close it.
 
@@ -187,7 +187,7 @@ Next is to configure Hadoop configuration files available under etc directory.
 
    Change the following name as per your system hostname:
 
-   ![setup-core-site](images/section1/setup-core-site.png)
+   ![setup core-site](images/section1/setup-core-site.png)
 
    Save and close the file.
 
@@ -199,7 +199,7 @@ Next is to configure Hadoop configuration files available under etc directory.
 
    Change the NameNode and DataNode directory paths as shown below:
 
-   ![setup-hdfs-site](images/section1/setup-hdfs-site.png)
+   ![setup hdfs-site](images/section1/setup-hdfs-site.png)
 
    Save and close the file.
 
@@ -211,7 +211,7 @@ Next is to configure Hadoop configuration files available under etc directory.
 
    Make the following changes:
 
-   ![setup-mapred-site](images/section1/setup-mapred-site.png)
+   ![setup mapred-site](images/section1/setup-mapred-site.png)
 
    Save and close the file.
 
@@ -223,7 +223,7 @@ Next is to configure Hadoop configuration files available under etc directory.
 
    Make the following changes:
 
-   ![setup-yarn-site](images/section1/setup-yarn-site.png)
+   ![setup yarn-site](images/section1/setup-yarn-site.png)
 
    Save and close the file.
 
@@ -245,21 +245,13 @@ jps
 
 Completed screenshots of the members:
 
-20120468 - Nguyen Van Hai
+![20120468 - Nguyen Van Hai](images/section1/jps-20120468.png)
 
-![20120468 done](images/section1/jps-20120468.png)
+![20120366 - Pham Phu Hoang Son](images/section1/jps-son.png)
 
-20120366 - Pham Phu Hoang Son
+![20120391 - Ha Xuan Truong](images/section1/jps-truong.png)
 
-![20120366 done](images/section1/jps-son.png)
-
-20120391 - Ha Xuan Truong
-
-![20120391 done](images/section1/jps-truong.png)
-
-20120393 - Huynh Minh Tu
-
-![20120393 done](images/section1/jps-tu.png)
+![20120393 - Huynh Minh Tu](images/section1/jps-tu.png)
 
 ## Introduction to MapReduce
 
@@ -311,25 +303,25 @@ sudo snap install --classic eclipse
 
 Open Eclipse, select **File** -> **New** -> **Java project**
 
-![Run MapReduce](images/section3/1.png)
+![Create new Java project](images/section3/1.png)
 
 Enter project name and click on **Next** button
 
-![Run MapReduce](images/section3/2.png)
+![Click on Next button](images/section3/2.png)
 
 Click on **Finish** button
 
-![Run MapReduce](images/section3/3.png)
+![Click on Finish button](images/section3/3.png)
 
 Result looks like this
 
-![Run MapReduce](images/section3/4.png)
+![Result](images/section3/4.png)
 
 ---
 
 ### Step 2: Delete file _module-info.java_
 
-![Run MapReduce](images/section3/5.png)
+![Delete module-info.java](images/section3/5.png)
 
 ---
 
@@ -337,11 +329,11 @@ Result looks like this
 
 Right click on project name, select **New** -> **Package**
 
-![Run MapReduce](images/section3/6.png)
+![Create new Java package](images/section3/6.png)
 
 Enter Package name and click on **Finish** button
 
-![Run MapReduce](images/section3/7.png)
+![Click on Finish button](images/section3/7.png)
 
 ---
 
@@ -349,11 +341,11 @@ Enter Package name and click on **Finish** button
 
 Right click on project name, select **New** -> **Class** to create a Java class
 
-![Run MapReduce](images/section3/8.png)
+![Create new Java class](images/section3/8.png)
 
 Enter Class name and click on **Finish** button
 
-![Run MapReduce](images/section3/9.png)
+![Click on Finish button](images/section3/9.png)
 
 ---
 
@@ -361,7 +353,7 @@ Enter Class name and click on **Finish** button
 
 You should see many errors
 
-![Run MapReduce](images/section3/10.png)
+![Create WordCount code](images/section3/10.png)
 
 ---
 
@@ -369,15 +361,15 @@ You should see many errors
 
 Right click on project name, select **New** -> **Build Path** -> **Configure Build Path**
 
-![Run MapReduce](images/section3/11.png)
+![Configure Build Path](images/section3/11.png)
 
 Click on the **Libraries** tab
 
-![Run MapReduce](images/section3/12.png)
+![Libraries tab](images/section3/12.png)
 
 Select **Classpath** section and click on the **Add External JARs** button
 
-![Run MapReduce](images/section3/13.png)
+![Add External JARs](images/section3/13.png)
 
 Navigate to the Hadoop installation directory and select the following JAR files:
 
@@ -386,17 +378,17 @@ Navigate to the Hadoop installation directory and select the following JAR files
 - hadoop-mapreduce-client-jobclient-\<version>.jar
 - hadoop-common-\<version>.jar
 
-![Run MapReduce](images/section3/14.png)
+![Select JAR files - 1](images/section3/14.png)
 
-![Run MapReduce](images/section3/15.png)
+![Select JAR files - 2](images/section3/15.png)
 
 Click on the button **Apply and Close**
 
-![Run MapReduce](images/section3/16.png)
+![Apply and Close](images/section3/16.png)
 
 After that, the errors should disappear
 
-![Run MapReduce](images/section3/17.png)
+![Result screen](images/section3/17.png)
 
 ---
 
@@ -404,19 +396,19 @@ After that, the errors should disappear
 
 Right click to project name, select **Export**. You should see this screen, click on **JAR file** -> **Next**
 
-![Run MapReduce](images/section3/18.png)
+![Select JAR file](images/section3/18.png)
 
 Enter name of jar file and path to save this jar file and. Once done, click on **Next** button
 
-![Run MapReduce](images/section3/19.png)
+![Click on Next button](images/section3/19.png)
 
 Click on **Next** button until see this screen and browse the the package in this project. Once done, click on **Finish** button
 
-![Run MapReduce](images/section3/20.png)
+![Click on Finish button](images/section3/20.png)
 
 After all, you will get the Jar file
 
-![Run MapReduce](images/section3/21.png)
+![Result screen](images/section3/21.png)
 
 ---
 
@@ -442,15 +434,15 @@ hadoop fs -put /<local_file_path>/input.txt /<your-favorite-path>/wordcount/inpu
 
 Open browser an enter http://localhost:9870, you should see the screen like this
 
-![Run MapReduce](images/section3/22.png)
+![Open http://localhost:9870](images/section3/22.png)
 
 Click on **Utilities** tab -> **Browse the file system**
 
-![Run MapReduce](images/section3/23.png)
+![Browse the file system](images/section3/23.png)
 
 Browse to your "wordcount" directory, you should see "input" folder. Click on it you will see **input.txt** file
 
-![Run MapReduce](images/section3/24.png)
+![Input folder](images/section3/24.png)
 
 ---
 
@@ -465,7 +457,7 @@ hadoop jar WordCount.jar /user/hadoop/wordcount/input/input.txt /user/hadoop/wor
 
 You should see something like this
 
-![Run MapReduce](images/section3/25.png)
+![Result screen](images/section3/25.png)
 
 To see the result, enter this command
 
@@ -478,7 +470,7 @@ hadoop fs -cat /user/hadoop/wordcount/output/part-r-00000
 
 Compare to the input
 
-![Run MapReduce](images/section3/26.png)
+![Compare to the input](images/section3/26.png)
 
 ## Bonus
 
@@ -505,7 +497,7 @@ chovy showmaker
 doran canna
 ```
 
-Expected putput:
+Expected output:
 
 ```
 canna neg
@@ -527,7 +519,7 @@ zeus pos
 
 The result screen:
 
-![Result](images/section4/result.png)
+![Result screen](images/section4/result.png)
 
 ### 4.2 Setting up Fully Distributed Mode
 
