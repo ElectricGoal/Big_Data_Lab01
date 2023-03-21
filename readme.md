@@ -12,10 +12,10 @@
 
 
 ## Collaborators (SmallData)
-- `20120366` **Phạm Phú Hoàng Sơn** ([@githubaccount2](https://github.com/githubaccount2))
-- `20120391` **Hà Xuân Trường** ([@githubaccount3](https://github.com/githubaccount3))
+- `20120366` **Phạm Phú Hoàng Sơn** ([@HoangSon-123](https://github.com/HoangSon-123))
+- `20120391` **Hà Xuân Trường** ([@hxt-us](https://github.com/hxt-us))
 - `20120393` **Huỳnh Minh Tú** ([@electricgoal](https://github.com/ElectricGoal))
-- `20120468` **Nguyễn Văn Hải** ([@githubaccount4](https://github.com/githubaccount4))
+- `20120468` **Nguyễn Văn Hải** ([@nvhai248](https://github.com/nvhai248))
 ## Instructors
 - `HCMUS` **Đoàn Đình Toàn** ([@ddtoan](ddtoan18@clc.fitus.edu.vn))
 - `HCMUS` **Nguyễn Ngọc Thảo** ([@nnthao](nnthao@fit.hcmus.edu.vn))
