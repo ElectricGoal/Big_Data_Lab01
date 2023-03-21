@@ -523,7 +523,7 @@ The result screen:
 
 ### 4.2 Setting up Fully Distributed Mode
 
-Uncomplete
+Incomplete
 
 ## References
 
