@@ -36,8 +36,7 @@ code-block-font-size: \scriptsize
 
 ## Team reflection
 
-**Does your journey to the deadline have any bugs? How
-have you overcome it?**
+**Does your journey to the deadline have any bugs? How have you overcome it?**
 
 During the journey towards the deadline, we encountered several bugs that were related to Ubuntu, Hadoop installation, and errors while running Hadoop MapReduce jobs. In order to overcome these challenges, we had to invest more time and effort. We also conducted research by reading documentation and watching tutorial videos. These resources provided us with useful insights and ideas for troubleshooting the issues. Additionally, we scheduled some online meetings to discuss and solve the problems together. Through these efforts, we were able to solve most of the problems we encountered and successfully complete the project.
 
